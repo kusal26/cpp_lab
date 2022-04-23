@@ -43,7 +43,7 @@ class son : public father
     }
     void display3()
     {
-        cout<<"son has "<<car<<" car">>endl;
+        cout<<"son has "<<car<<" car"<<endl;
     }
 
 
@@ -54,7 +54,7 @@ class grandson : public son
 };
 int main()
 {
-    grandson 
+    grandson g; 
     g.grand_father_property("nano",10);
     g.display1();
     g.father_property("yamaha");
