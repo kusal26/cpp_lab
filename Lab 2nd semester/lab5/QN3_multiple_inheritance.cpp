@@ -45,7 +45,7 @@ class voice_recording
 
 
 };
-class talking_book:virtual public book, public voice_recording
+class talking_book:public book, public voice_recording
 {
     public:
     void display()

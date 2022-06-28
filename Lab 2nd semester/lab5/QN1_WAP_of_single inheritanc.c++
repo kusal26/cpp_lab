@@ -31,7 +31,7 @@ class base
   cout<<"a="<<a<<"\t"<<"b="<<b<<endl;
   }
 };
-/*  
+
 class derived:public base  //a.using public derivation
 {
 int c;
@@ -53,7 +53,7 @@ int main()
  return 0; 
 
 }
-*/
+/*
 
 class derived:private base //using private derivation
 {
@@ -69,6 +69,7 @@ void display()
     cout<<"c= "<<c;
 }
 };
+*/
 int main()
 {
  derived der;

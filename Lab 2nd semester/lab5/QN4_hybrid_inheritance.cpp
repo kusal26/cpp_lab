@@ -45,7 +45,7 @@ class sport{
     }
 
 };
-class result:virtual public test,public sport
+class result: public test,public sport
 {
     public:
     void display()
